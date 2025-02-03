@@ -71,7 +71,7 @@ CREATE TABLE Book (
     name TEXT NOT NULL,
     author TEXT NOT NULL,
     isbn INT PRIMARY KEY AUTO_INCREMENT,
-    library_acquisition_date DATE NOT NULL,
+    library_acquisition_date DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
     copies INT NOT NULL
 );
 --@block
@@ -112,7 +112,6 @@ CREATE TABLE Loan (
     id INT PRIMARY KEY AUTO_INCREMENT,
     user_id INT NOT NULL,
     book_isbn INT NOT NULL,
-    due_date DATE NOT NULL,
     FOREIGN KEY (user_id) REFERENCES User(id),
     FOREIGN KEY (book_isbn) REFERENCES Book(isbn)
 );
