@@ -1,0 +1,24 @@
+@model Book;
+
+@{
+    ViewData["Title"] = "New Book";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Add a new book</h1>
+    <form asp-action="NewBookConfirmation">
+        <div>
+            <label for="Name">Name:</label>
+            <input type="text" name="Name">
+        </div>
+        <div>
+            <label for="Author">Author:</label>
+            <input type="text" name="Author">
+        </div>
+        <div>
+            <label for="Copies">Number of Copies:</label>
+            <input type="text" name="Copies">
+        </div>
+        <input type="submit" value="Submit">
+    </form>
+</div>
