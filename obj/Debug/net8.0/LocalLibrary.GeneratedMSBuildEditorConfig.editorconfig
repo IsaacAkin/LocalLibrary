@@ -18,12 +18,28 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = c:\Users\Isaac\Documents\Projects\Bootcamp\LocalLibrary
 build_property._RazorSourceGeneratorDebug = 
 
+[c:/Users/Isaac/Documents/Projects/Bootcamp/LocalLibrary/Views/Home/AddNewBook.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBZGROZXdCb29rLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Isaac/Documents/Projects/Bootcamp/LocalLibrary/Views/Home/AllBooks.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBbGxCb29rcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Isaac/Documents/Projects/Bootcamp/LocalLibrary/Views/Home/DeleteBook.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEZWxldGVCb29rLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Isaac/Documents/Projects/Bootcamp/LocalLibrary/Views/Home/DeleteBookConfirmation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEZWxldGVCb29rQ29uZmlybWF0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [c:/Users/Isaac/Documents/Projects/Bootcamp/LocalLibrary/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Isaac/Documents/Projects/Bootcamp/LocalLibrary/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+[c:/Users/Isaac/Documents/Projects/Bootcamp/LocalLibrary/Views/Home/NewBookConfirmation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxOZXdCb29rQ29uZmlybWF0aW9uLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [c:/Users/Isaac/Documents/Projects/Bootcamp/LocalLibrary/Views/Shared/Error.cshtml]
