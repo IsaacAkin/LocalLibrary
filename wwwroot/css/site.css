@@ -8,7 +8,11 @@ html {
   }
 }
 
-.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+.btn:focus,
+.btn:active:focus,
+.btn-link.nav-link:focus,
+.form-control:focus,
+.form-check-input:focus {
   box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
 }
 
@@ -19,4 +23,28 @@ html {
 
 body {
   margin-bottom: 60px;
+}
+
+.title-container {
+  text-align: center;
+}
+
+.books-container {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.books {
+  display: flex;
+  border: 1px solid black;
+  box-shadow: 1px 2px;
+  border-radius: 0.5rem;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  /* margin: 0 auto; */
+  min-width: 280px;
+  min-height: 180px;
 }
