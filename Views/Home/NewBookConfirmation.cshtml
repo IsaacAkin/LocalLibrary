@@ -1,4 +1,4 @@
-@model Book;
+@model List<Book>;
 
 @{
     ViewData["Title"] = "New Book Confirmation";
@@ -6,8 +6,11 @@
 
 <div class="text-center">
     <h1 class="display-4">Confirmation</h1>
-    <p>A new book has been added to the database:</p>
-    <p>'@Model.Name' by '@Model.Author' has successfully been added to the database with '@Model.Copies' copies on: </p>
-    <p>'@Model.LibraryAcquisitionDate'</p>
-    <p>With an ISBN number of: '@Model.Isbn'.</p>
+    @foreach (Book book in Model)
+    {
+        <p>A new book has been added to the database:</p>
+        <p>'@book.Name' by '@book.Author' has successfully been added to the database with '@book.Copies' copies on: </p>
+        <p>'@book.LibraryAcquisitionDate'</p>
+        <p>With an ISBN number of: '@book.Isbn'.</p>
+    }
 </div>
