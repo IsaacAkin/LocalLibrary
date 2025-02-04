@@ -1,0 +1,21 @@
+@model List<Loan>;
+
+@{
+    ViewData["Title"] = "All Loans";
+}
+
+<div class="title-container">
+    <h1 class="display-4 all-books-title">All Loans</h1>
+    <p>Here is a list of all our books that are out on loan:</p>
+</div>
+<div class="text-centern books-container">
+    @foreach (Loan loan in Model)
+    {
+        <div class="books">
+            <p>User: @loan.UserName</p>
+            <p>Book: @loan.BookName</p>
+            <p>Author: @loan.BookAuthor</p>
+            @* <button type="submit">Take Out</button> *@
+        </div>
+    }
+</div>
