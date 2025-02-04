@@ -1,11 +1,14 @@
-@model Book;
+@model List<Book>;
 
 @{
-    ViewData["Title"] = "New Book Confirmation";
+    ViewData["Title"] = "Delete Book Confirmation";
 }
 
 <div class="text-center">
     <h1 class="display-4">Confirmation</h1>
     <p>A book has been removed from the database:</p>
-    <p>'@Model.Name' by '@Model.Author' has successfully been removed from the database.</p>
+    @foreach (Book book in Model)
+    {
+        <p>'@book.Name' by '@book.Author' has successfully been removed from the database.</p>
+    }
 </div>

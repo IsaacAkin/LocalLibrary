@@ -1,0 +1,15 @@
+@model List<Loan>;
+
+@{
+    ViewData["Title"] = "New Loan Confirmation";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Confirmation</h1>
+    <p>A book has been returned to the library:</p>
+    @foreach (Loan loan in Model)
+    {
+        <p>'@loan.UserName' has returned '@loan.BookName' by '@loan.BookAuthor' to the library.</p>
+        <p>Loan with ID: '@loan.Id' has been removed from the database.</p>
+    }
+</div>

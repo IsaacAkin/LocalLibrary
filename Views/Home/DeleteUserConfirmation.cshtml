@@ -1,0 +1,16 @@
+@model List<User>;
+
+@{
+    ViewData["Title"] = "Delete User Confirmation";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Confirmation</h1>
+    <p>A user has been removed from the database:</p>
+    @foreach (User user in Model)
+    {
+        <p>
+            '@user.FirstName @user.LastName' with ID '@user.Id' has successfully been removed from the database.
+        </p>
+    }
+</div>
